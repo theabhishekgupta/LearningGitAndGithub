@@ -1,0 +1,71 @@
+
+-------------------------------------SOME IMPORTANT COMMANDS---------------------------------------
+
+1 - first ---> git init(create one folder) 
+ 
+ 
+2 - before tracking we are making a [staging area]--->  
+    
+	   a- git add <file name >
+	   
+	   b- git diff (to see changes )
+	   
+	   c- git status ( kon kon si file add ki hai )
+	   
+	   
+3 - git commit <file name > / git commit -a (all file avlible in staging area ) -m '<massesge>' 
+
+-----------------remot repo----------------------------------
+
+			we are using github
+
+add remot repo
+
+1-git remote add <repository name> <repository url>
+
+
+make aliasi --->
+
+ex-   origin https://github.com/theabhishekgupt/rep1
+	  
+	 xyz https://github.com/theabhishekgupt/rep2
+	  
+2- git push <repository name> master
+
+3- first time ask ......
+
+   give user name and password 
+   
+   
+   
+-----------------------------------branching-----------------------------
+
+1 - git branch  < any name >-------[add new branch]
+     
+	ex - git branch fix
+
+		 git branch new_branch
+		 
+2 - git branch --------------------[to see all branch]
+
+3 - git checkout <branch name>-----[shift/ move into branch ] 
+     
+	ex  - git checkout fix
+	 
+	    - git checkout master
+
+--------working into new branch------(add , commit)
+
+
+
+---------------ADD branch repository to master---------------------------
+
+1 - git merge <branch name > 
+
+2- git mergetool (jab merge confilict )
+ 
+3- clone wq
+
+4- git merge <branch name >
+
+5- git commit -a -m '<commit after fix>'
